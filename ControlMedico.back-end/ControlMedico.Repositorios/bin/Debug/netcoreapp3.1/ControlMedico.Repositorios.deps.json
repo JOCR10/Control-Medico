@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "ControlMedico.Repositorios/1.0.0": {
+        "dependencies": {
+          "ControlMedico.Modelos": "1.0.0"
+        },
+        "runtime": {
+          "ControlMedico.Repositorios.dll": {}
+        }
+      },
+      "ControlMedico.Modelos/1.0.0": {
+        "runtime": {
+          "ControlMedico.Modelos.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ControlMedico.Repositorios/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ControlMedico.Modelos/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

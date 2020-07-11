@@ -1268,6 +1268,29 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "ControlMedico.Modelos/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/ControlMedico.Modelos.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ControlMedico.Modelos.dll": {}
+        }
+      },
+      "ControlMedico.Repositorios/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "ControlMedico.Modelos": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ControlMedico.Repositorios.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ControlMedico.Repositorios.dll": {}
+        }
       }
     }
   },
@@ -4910,10 +4933,21 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "ControlMedico.Modelos/1.0.0": {
+      "type": "project",
+      "path": "../ControlMedico.Modelos/ControlMedico.Modelos.csproj",
+      "msbuildProject": "../ControlMedico.Modelos/ControlMedico.Modelos.csproj"
+    },
+    "ControlMedico.Repositorios/1.0.0": {
+      "type": "project",
+      "path": "../ControlMedico.Repositorios/ControlMedico.Repositorios.csproj",
+      "msbuildProject": "../ControlMedico.Repositorios/ControlMedico.Repositorios.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "ControlMedico.Repositorios >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 3.1.5",
       "Microsoft.EntityFrameworkCore.Design >= 3.1.5",
       "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.5"
@@ -4948,7 +4982,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "F:\\Pruebas Técnicas\\GAP\\ControlMedico\\ControlMedico.back-end\\ControlMedico.Repositorios\\ControlMedico.Repositorios.csproj": {
+              "projectPath": "F:\\Pruebas Técnicas\\GAP\\ControlMedico\\ControlMedico.back-end\\ControlMedico.Repositorios\\ControlMedico.Repositorios.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
