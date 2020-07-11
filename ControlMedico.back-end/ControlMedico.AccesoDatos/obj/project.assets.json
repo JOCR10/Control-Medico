@@ -4926,11 +4926,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Pruebas Técnicas\\GAP\\ControlMedico\\ControlMedico.AccesoDatos\\ControlMedico.AccesoDatos.csproj",
+      "projectUniqueName": "F:\\Pruebas Técnicas\\GAP\\ControlMedico\\ControlMedico.back-end\\ControlMedico.AccesoDatos\\ControlMedico.AccesoDatos.csproj",
       "projectName": "ControlMedico.AccesoDatos",
-      "projectPath": "F:\\Pruebas Técnicas\\GAP\\ControlMedico\\ControlMedico.AccesoDatos\\ControlMedico.AccesoDatos.csproj",
+      "projectPath": "F:\\Pruebas Técnicas\\GAP\\ControlMedico\\ControlMedico.back-end\\ControlMedico.AccesoDatos\\ControlMedico.AccesoDatos.csproj",
       "packagesPath": "C:\\Users\\jrodrigueza\\.nuget\\packages\\",
-      "outputPath": "F:\\Pruebas Técnicas\\GAP\\ControlMedico\\ControlMedico.AccesoDatos\\obj\\",
+      "outputPath": "F:\\Pruebas Técnicas\\GAP\\ControlMedico\\ControlMedico.back-end\\ControlMedico.AccesoDatos\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

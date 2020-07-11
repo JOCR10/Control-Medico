@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Pruebas Técnicas\\GAP\\ControlMedico\\ControlMedico.back-end\\ControlMedico.AccesoDatos\\ControlMedico.AccesoDatos.csproj": {}
+    "F:\\Pruebas Técnicas\\GAP\\ControlMedico\\ControlMedico.back-end\\ControlMedico.Modelos\\ControlMedico.Modelos.csproj": {}
   },
   "projects": {
-    "F:\\Pruebas Técnicas\\GAP\\ControlMedico\\ControlMedico.back-end\\ControlMedico.AccesoDatos\\ControlMedico.AccesoDatos.csproj": {
+    "F:\\Pruebas Técnicas\\GAP\\ControlMedico\\ControlMedico.back-end\\ControlMedico.Modelos\\ControlMedico.Modelos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Pruebas Técnicas\\GAP\\ControlMedico\\ControlMedico.back-end\\ControlMedico.AccesoDatos\\ControlMedico.AccesoDatos.csproj",
-        "projectName": "ControlMedico.AccesoDatos",
-        "projectPath": "F:\\Pruebas Técnicas\\GAP\\ControlMedico\\ControlMedico.back-end\\ControlMedico.AccesoDatos\\ControlMedico.AccesoDatos.csproj",
+        "projectUniqueName": "F:\\Pruebas Técnicas\\GAP\\ControlMedico\\ControlMedico.back-end\\ControlMedico.Modelos\\ControlMedico.Modelos.csproj",
+        "projectName": "ControlMedico.Modelos",
+        "projectPath": "F:\\Pruebas Técnicas\\GAP\\ControlMedico\\ControlMedico.back-end\\ControlMedico.Modelos\\ControlMedico.Modelos.csproj",
         "packagesPath": "C:\\Users\\jrodrigueza\\.nuget\\packages\\",
-        "outputPath": "F:\\Pruebas Técnicas\\GAP\\ControlMedico\\ControlMedico.back-end\\ControlMedico.AccesoDatos\\obj\\",
+        "outputPath": "F:\\Pruebas Técnicas\\GAP\\ControlMedico\\ControlMedico.back-end\\ControlMedico.Modelos\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -40,22 +40,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[3.1.5, )"
-            },
-            "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[3.1.5, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[3.1.5, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
