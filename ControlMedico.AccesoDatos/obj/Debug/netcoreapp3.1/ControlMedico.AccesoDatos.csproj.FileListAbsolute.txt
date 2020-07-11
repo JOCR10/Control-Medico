@@ -1,0 +1,9 @@
+F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.AccesoDatos\bin\Debug\netcoreapp3.1\ControlMedico.AccesoDatos.deps.json
+F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.AccesoDatos\bin\Debug\netcoreapp3.1\ControlMedico.AccesoDatos.dll
+F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.AccesoDatos\obj\Debug\netcoreapp3.1\ControlMedico.AccesoDatos.AssemblyInfoInputs.cache
+F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.AccesoDatos\obj\Debug\netcoreapp3.1\ControlMedico.AccesoDatos.AssemblyInfo.cs
+F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.AccesoDatos\bin\Debug\netcoreapp3.1\ControlMedico.AccesoDatos.runtimeconfig.json
+F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.AccesoDatos\bin\Debug\netcoreapp3.1\ControlMedico.AccesoDatos.runtimeconfig.dev.json
+F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.AccesoDatos\bin\Debug\netcoreapp3.1\ControlMedico.AccesoDatos.pdb
+F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.AccesoDatos\obj\Debug\netcoreapp3.1\ControlMedico.AccesoDatos.dll
+F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.AccesoDatos\obj\Debug\netcoreapp3.1\ControlMedico.AccesoDatos.pdb
