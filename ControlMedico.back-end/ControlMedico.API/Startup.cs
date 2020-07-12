@@ -32,16 +32,6 @@ namespace ControlMedico.API2
             services.AddControllers();
         }
 
-        private void SetMigrate(string connectionString)
-        {
-            var optionsBuilder = new DbContextOptionsBuilder<ContextoBaseDatos>();
-            optionsBuilder.UseSqlServer(connectionString);
-            using (var context = new ContextoBaseDatos(optionsBuilder.Options))
-            {
-                context.Database.Migrate();
-            }
-        }
-
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env, ContextoBaseDatos contextoBD)
         {
@@ -60,8 +50,6 @@ namespace ControlMedico.API2
             {
                 endpoints.MapControllers();
             });
-
-            contextoBD.Database.Migrate();
         }
     }
 }

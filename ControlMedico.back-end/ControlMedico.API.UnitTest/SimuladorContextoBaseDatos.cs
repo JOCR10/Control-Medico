@@ -15,7 +15,7 @@ namespace ControlMedico.API.UnitTest
                 .UseInMemoryDatabase(databaseName: baseDatos)
                 .Options;
             var dbContext = new ContextoBaseDatos(options);
-            dbContext.Seed();
+            dbContext.CargarDatosSimulados();
             return dbContext;
         }
     }

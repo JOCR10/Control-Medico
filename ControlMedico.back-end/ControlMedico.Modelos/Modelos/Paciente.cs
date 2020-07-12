@@ -1,39 +1,33 @@
 ﻿using ControlMedico.Modelos.Util;
 using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ControlMedico.Modelos.Modelos
 {
     public class Paciente
     {
         [Key]
-        [Required]
         public int IdPaciente { get; set; }
-
         [Required]
         [StringLength(12)]
         public string Identificacion { get; set; }
-
-        [Required]
         public EnumTipoIdentificacion TipoIdentificacion { get; set; }
-
         [Required]
         [StringLength(100)]
         public string NombreCompleto { get; set; }
-
-        [Required]
-        [DataType(DataType.Date)]
+        [Column(TypeName = "date")]
         public DateTime FechaNacimiento { get; set; }
-
-        [Required]
-        public EnumGenero Genero{ get; set; }
-
+        public EnumGenero Genero { get; set; }
         [Required]
         [StringLength(250)]
         public string Residencia { get; set; }
-
         [Required]
         [StringLength(8)]
         public string Telefono { get; set; }
+
+        [InverseProperty("IdPacienteNavigation")]
+        public virtual ICollection<Cita> Cita { get; set; }
     }
 }

@@ -14,13 +14,13 @@ namespace ControlMedico.API.Controllers
         {
         }
 
-        [HttpGet("{identificacion}")]
+        [Route("[action]/{identificacion}")]
         public Paciente ObtenerPorIdentificacion(string identificacion)
         {
             return base.Repositorio.ObtenerPacientePorIdentificacion(identificacion);
         }
 
-        [HttpGet("{id}")]
+        [HttpGet("[action]/{id}")]
         public Paciente ObtenerPorID(int id)
         {
             return base.Repositorio.ObtenerPorID(id);

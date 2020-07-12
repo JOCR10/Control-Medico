@@ -2,16 +2,16 @@
 {
     public enum EnumTipoIdentificacion
     {
-        Fisica, Extranjero, Diplomatico
+        Fisica = 1, Extranjero, Diplomatico
     }
 
     public enum EnumGenero
     {
-        Femenino, Masculino
+        Femenino = 1, Masculino
     }
     public enum EnumTipoCita
     {
-        MedicinaGeneral, Odontologia, Pediatria, Neurologia
+        MedicinaGeneral = 1, Odontologia = 2, Pediatria = 3, Neurologia = 4
     }
 
 }

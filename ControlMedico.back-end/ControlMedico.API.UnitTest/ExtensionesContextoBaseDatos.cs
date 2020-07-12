@@ -8,7 +8,7 @@ namespace ControlMedico.API.UnitTest
 {
    public static class ExtensionesContextoBaseDatos
     {
-        public static void Seed(this ContextoBaseDatos contexto)
+        public static void CargarDatosSimulados(this ContextoBaseDatos contexto)
         {
             // Add entities for DbContext instance
 

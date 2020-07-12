@@ -1,23 +1,22 @@
 ﻿using ControlMedico.Modelos.Util;
 using System;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ControlMedico.Modelos.Modelos
 {
     public class Cita
     {
         [Key]
-        [Required]
         public int IdCita { get; set; }
-
-        [Required]
-        [DataType(DataType.Date)]
+        [Column(TypeName = "datetime")]
         public DateTime FechaCita { get; set; }
-
-        [Required]
+        public int IdPaciente { get; set; }
         public EnumTipoCita TipoCita { get; set; }
-
-        [Required]
         public bool Cancelada { get; set; }
+
+        [ForeignKey(nameof(IdPaciente))]
+        [InverseProperty(nameof(Paciente.Cita))]
+        public virtual Paciente IdPacienteNavigation { get; set; }
     }
 }
