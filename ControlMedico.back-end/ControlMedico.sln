@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29905.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlMedico.API", "ControlMedico.API\ControlMedico.API.csproj", "{8E0DFFFF-7B18-42C0-93E0-20EC62953A8C}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ControlMedico.AccesoDatos", "ControlMedico.AccesoDatos\ControlMedico.AccesoDatos.csproj", "{F80EFF0A-DD81-4DC9-BB67-F8BABB6156B3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlMedico.Modelos", "ControlMedico.Modelos\ControlMedico.Modelos.csproj", "{DD60AF22-92A5-495E-82A3-69D0E2416E24}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ControlMedico.Modelos", "ControlMedico.Modelos\ControlMedico.Modelos.csproj", "{DD60AF22-92A5-495E-82A3-69D0E2416E24}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlMedico.Repositorios", "ControlMedico.Repositorios\ControlMedico.Repositorios.csproj", "{5BF2D666-8092-4CB4-8A20-1C0C51928987}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ControlMedico.Repositorios", "ControlMedico.Repositorios\ControlMedico.Repositorios.csproj", "{5BF2D666-8092-4CB4-8A20-1C0C51928987}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlMedico.API2", "ControlMedico.API2\ControlMedico.API2.csproj", "{3706F97C-4138-44E9-B9FB-3FF8380E1E56}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlMedico.API", "ControlMedico.API\ControlMedico.API.csproj", "{3706F97C-4138-44E9-B9FB-3FF8380E1E56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlMedico.API.UnitTest", "ControlMedico.API.UnitTest\ControlMedico.API.UnitTest.csproj", "{09DC80BB-5A2D-4678-A207-4F6291D880E1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,10 +19,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8E0DFFFF-7B18-42C0-93E0-20EC62953A8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8E0DFFFF-7B18-42C0-93E0-20EC62953A8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8E0DFFFF-7B18-42C0-93E0-20EC62953A8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8E0DFFFF-7B18-42C0-93E0-20EC62953A8C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F80EFF0A-DD81-4DC9-BB67-F8BABB6156B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F80EFF0A-DD81-4DC9-BB67-F8BABB6156B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F80EFF0A-DD81-4DC9-BB67-F8BABB6156B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -39,6 +35,10 @@ Global
 		{3706F97C-4138-44E9-B9FB-3FF8380E1E56}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3706F97C-4138-44E9-B9FB-3FF8380E1E56}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3706F97C-4138-44E9-B9FB-3FF8380E1E56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09DC80BB-5A2D-4678-A207-4F6291D880E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09DC80BB-5A2D-4678-A207-4F6291D880E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09DC80BB-5A2D-4678-A207-4F6291D880E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09DC80BB-5A2D-4678-A207-4F6291D880E1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

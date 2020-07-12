@@ -15,14 +15,9 @@ namespace ControlMedico.AccesoDatos.Repositorios
 
         public RepositorioPaciente(ContextoBaseDatos context) : base(context) { }
 
-        public IEnumerable<Paciente> ObtenerPacientes()
+        public Paciente ObtenerPacientePorIdentificacion(string identificacion)
         {
-            return ContextoBaseDatos.Pacientes.ToList();
-        }
-
-        public IEnumerable<Paciente> ObtenerPacientePorID(int id)
-        {
-            return ContextoBaseDatos.Pacientes.Where(b => b.IdPaciente == id).ToList();
+            return ContextoBaseDatos.Paciente.Where(b => b.Identificacion == identificacion).FirstOrDefault();
         }
     }
 }

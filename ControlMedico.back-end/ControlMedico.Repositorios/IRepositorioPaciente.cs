@@ -5,7 +5,6 @@ namespace ControlMedico.Repositorios
 {
     public interface IRepositorioPaciente : IRepositorio<Paciente>
     {
-        IEnumerable<Paciente> ObtenerPacientes();
-        IEnumerable<Paciente> ObtenerPacientePorID(int id);
+        Paciente ObtenerPacientePorIdentificacion(string identificacion);
     }
 }

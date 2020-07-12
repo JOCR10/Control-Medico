@@ -8,8 +8,8 @@ namespace ControlMedico.AccesoDatos.ContextoBD
         public ContextoBaseDatos(DbContextOptions<ContextoBaseDatos> options) : base(options)
         { }
 
-        public DbSet<Paciente> Pacientes { get; set; }
-        public DbSet<Cita> Citas { get; set; }
+        public DbSet<Paciente> Paciente { get; set; }
+        public DbSet<Cita> Cita { get; set; }
 
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)

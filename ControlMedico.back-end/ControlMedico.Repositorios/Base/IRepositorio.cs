@@ -8,5 +8,7 @@ namespace ControlMedico.Repositorios.Base
         void Eliminar(TModelo entity);
         TModelo ObtenerPorID(int id);
         IEnumerable<TModelo> ObtenerDatos();
+        void Actualizar(TModelo entity);
+
     }
 }

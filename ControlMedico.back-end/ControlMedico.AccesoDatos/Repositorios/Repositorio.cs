@@ -14,6 +14,11 @@ namespace ControlMedico.AccesoDatos.Repositorios
             this.DatabaseContext = context;
         }
 
+        public void Actualizar(TModelo modelo)
+        {
+            DatabaseContext.Set<TModelo>().Update(modelo);
+        }
+
         public void Eliminar(TModelo modelo)
         {
             DatabaseContext.Set<TModelo>().Remove(modelo);

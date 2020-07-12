@@ -1,0 +1,268 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\Pruebas Técnicas\\GAP\\ControlMedico\\ControlMedico.back-end\\ControlMedico.API\\ControlMedico.API.csproj": {}
+  },
+  "projects": {
+    "F:\\Pruebas Técnicas\\GAP\\ControlMedico\\ControlMedico.back-end\\ControlMedico.AccesoDatos\\ControlMedico.AccesoDatos.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Pruebas Técnicas\\GAP\\ControlMedico\\ControlMedico.back-end\\ControlMedico.AccesoDatos\\ControlMedico.AccesoDatos.csproj",
+        "projectName": "ControlMedico.AccesoDatos",
+        "projectPath": "F:\\Pruebas Técnicas\\GAP\\ControlMedico\\ControlMedico.back-end\\ControlMedico.AccesoDatos\\ControlMedico.AccesoDatos.csproj",
+        "packagesPath": "C:\\Users\\jrodrigueza\\.nuget\\packages\\",
+        "outputPath": "F:\\Pruebas Técnicas\\GAP\\ControlMedico\\ControlMedico.back-end\\ControlMedico.AccesoDatos\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jrodrigueza\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "F:\\Pruebas Técnicas\\GAP\\ControlMedico\\ControlMedico.back-end\\ControlMedico.Repositorios\\ControlMedico.Repositorios.csproj": {
+                "projectPath": "F:\\Pruebas Técnicas\\GAP\\ControlMedico\\ControlMedico.back-end\\ControlMedico.Repositorios\\ControlMedico.Repositorios.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\Pruebas Técnicas\\GAP\\ControlMedico\\ControlMedico.back-end\\ControlMedico.API\\ControlMedico.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Pruebas Técnicas\\GAP\\ControlMedico\\ControlMedico.back-end\\ControlMedico.API\\ControlMedico.API.csproj",
+        "projectName": "ControlMedico.API",
+        "projectPath": "F:\\Pruebas Técnicas\\GAP\\ControlMedico\\ControlMedico.back-end\\ControlMedico.API\\ControlMedico.API.csproj",
+        "packagesPath": "C:\\Users\\jrodrigueza\\.nuget\\packages\\",
+        "outputPath": "F:\\Pruebas Técnicas\\GAP\\ControlMedico\\ControlMedico.back-end\\ControlMedico.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jrodrigueza\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "F:\\Pruebas Técnicas\\GAP\\ControlMedico\\ControlMedico.back-end\\ControlMedico.AccesoDatos\\ControlMedico.AccesoDatos.csproj": {
+                "projectPath": "F:\\Pruebas Técnicas\\GAP\\ControlMedico\\ControlMedico.back-end\\ControlMedico.AccesoDatos\\ControlMedico.AccesoDatos.csproj"
+              },
+              "F:\\Pruebas Técnicas\\GAP\\ControlMedico\\ControlMedico.back-end\\ControlMedico.Repositorios\\ControlMedico.Repositorios.csproj": {
+                "projectPath": "F:\\Pruebas Técnicas\\GAP\\ControlMedico\\ControlMedico.back-end\\ControlMedico.Repositorios\\ControlMedico.Repositorios.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\Pruebas Técnicas\\GAP\\ControlMedico\\ControlMedico.back-end\\ControlMedico.Modelos\\ControlMedico.Modelos.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Pruebas Técnicas\\GAP\\ControlMedico\\ControlMedico.back-end\\ControlMedico.Modelos\\ControlMedico.Modelos.csproj",
+        "projectName": "ControlMedico.Modelos",
+        "projectPath": "F:\\Pruebas Técnicas\\GAP\\ControlMedico\\ControlMedico.back-end\\ControlMedico.Modelos\\ControlMedico.Modelos.csproj",
+        "packagesPath": "C:\\Users\\jrodrigueza\\.nuget\\packages\\",
+        "outputPath": "F:\\Pruebas Técnicas\\GAP\\ControlMedico\\ControlMedico.back-end\\ControlMedico.Modelos\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jrodrigueza\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\Pruebas Técnicas\\GAP\\ControlMedico\\ControlMedico.back-end\\ControlMedico.Repositorios\\ControlMedico.Repositorios.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Pruebas Técnicas\\GAP\\ControlMedico\\ControlMedico.back-end\\ControlMedico.Repositorios\\ControlMedico.Repositorios.csproj",
+        "projectName": "ControlMedico.Repositorios",
+        "projectPath": "F:\\Pruebas Técnicas\\GAP\\ControlMedico\\ControlMedico.back-end\\ControlMedico.Repositorios\\ControlMedico.Repositorios.csproj",
+        "packagesPath": "C:\\Users\\jrodrigueza\\.nuget\\packages\\",
+        "outputPath": "F:\\Pruebas Técnicas\\GAP\\ControlMedico\\ControlMedico.back-end\\ControlMedico.Repositorios\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jrodrigueza\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "F:\\Pruebas Técnicas\\GAP\\ControlMedico\\ControlMedico.back-end\\ControlMedico.Modelos\\ControlMedico.Modelos.csproj": {
+                "projectPath": "F:\\Pruebas Técnicas\\GAP\\ControlMedico\\ControlMedico.back-end\\ControlMedico.Modelos\\ControlMedico.Modelos.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
