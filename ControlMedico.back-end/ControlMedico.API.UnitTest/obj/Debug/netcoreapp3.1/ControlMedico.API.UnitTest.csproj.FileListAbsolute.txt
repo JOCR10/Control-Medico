@@ -9,6 +9,8 @@ F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.API.
 F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.API.UnitTest\bin\Debug\netcoreapp3.1\ControlMedico.API.UnitTest.runtimeconfig.json
 F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.API.UnitTest\bin\Debug\netcoreapp3.1\ControlMedico.API.UnitTest.runtimeconfig.dev.json
 F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.API.UnitTest\bin\Debug\netcoreapp3.1\ControlMedico.API.UnitTest.dll
+F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.API.UnitTest\bin\Debug\netcoreapp3.1\ControlMedico.API.UnitTest.pdb
+F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.API.UnitTest\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.API.UnitTest\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
 F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.API.UnitTest\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
 F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.API.UnitTest\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
@@ -19,8 +21,10 @@ F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.API.
 F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.API.UnitTest\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
 F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.API.UnitTest\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.CodeCoverage.Shim.dll
 F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.API.UnitTest\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.API.UnitTest\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
 F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.API.UnitTest\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
 F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.API.UnitTest\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.API.UnitTest\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.InMemory.dll
 F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.API.UnitTest\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
 F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.API.UnitTest\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
 F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.API.UnitTest\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
@@ -30,11 +34,17 @@ F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.API.
 F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.API.UnitTest\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
 F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.API.UnitTest\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
 F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.API.UnitTest\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.API.UnitTest\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
 F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.API.UnitTest\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
 F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.API.UnitTest\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
 F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.API.UnitTest\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
 F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.API.UnitTest\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
 F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.API.UnitTest\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.API.UnitTest\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.API.UnitTest\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.API.UnitTest\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.API.UnitTest\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.API.UnitTest\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
 F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.API.UnitTest\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.CoreUtilities.dll
 F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.API.UnitTest\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.PlatformAbstractions.dll
 F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.API.UnitTest\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
@@ -51,6 +61,7 @@ F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.API.
 F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.API.UnitTest\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
 F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.API.UnitTest\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
 F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.API.UnitTest\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.API.UnitTest\bin\Debug\netcoreapp3.1\NETCore.Encrypt.dll
 F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.API.UnitTest\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.API.UnitTest\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
 F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.API.UnitTest\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
@@ -61,6 +72,7 @@ F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.API.
 F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.API.UnitTest\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
 F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.API.UnitTest\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
 F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.API.UnitTest\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.API.UnitTest\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
 F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.API.UnitTest\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
 F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.API.UnitTest\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
 F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.API.UnitTest\bin\Debug\netcoreapp3.1\System.Xml.XPath.XmlDocument.dll
@@ -205,9 +217,5 @@ F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.API.
 F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.API.UnitTest\obj\Debug\netcoreapp3.1\ControlMedico.API.UnitTest.AssemblyInfoInputs.cache
 F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.API.UnitTest\obj\Debug\netcoreapp3.1\ControlMedico.API.UnitTest.AssemblyInfo.cs
 F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.API.UnitTest\obj\Debug\netcoreapp3.1\ControlMedico.API.UnitTest.csproj.CopyComplete
-F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.API.UnitTest\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
-F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.API.UnitTest\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
-F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.API.UnitTest\bin\Debug\netcoreapp3.1\ControlMedico.API.UnitTest.pdb
-F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.API.UnitTest\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.InMemory.dll
 F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.API.UnitTest\obj\Debug\netcoreapp3.1\ControlMedico.API.UnitTest.dll
 F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.API.UnitTest\obj\Debug\netcoreapp3.1\ControlMedico.API.UnitTest.pdb

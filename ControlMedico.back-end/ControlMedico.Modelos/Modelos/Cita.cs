@@ -5,7 +5,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ControlMedico.Modelos.Modelos
 {
-    public class Cita
+    public partial class Cita
     {
         [Key]
         public int IdCita { get; set; }

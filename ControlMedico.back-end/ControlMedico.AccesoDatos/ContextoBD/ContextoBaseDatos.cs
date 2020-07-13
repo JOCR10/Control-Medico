@@ -17,6 +17,7 @@ namespace ControlMedico.AccesoDatos.ContextoBD
 
         public virtual DbSet<Cita> Cita { get; set; }
         public virtual DbSet<Paciente> Paciente { get; set; }
+        public virtual DbSet<Usuario> Usuario { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -56,6 +57,19 @@ namespace ControlMedico.AccesoDatos.ContextoBD
                 entity.Property(e => e.TipoIdentificacion).HasConversion(x => (byte)x, x => (EnumTipoIdentificacion)x).HasComment(@"1-Física.
 2-Extranjero
 3-Diplomático");
+            });
+
+            modelBuilder.Entity<Usuario>(entity =>
+            {
+                entity.HasIndex(e => e.CodUsuario)
+                    .HasName("UK_Usuario_CodUsuario")
+                    .IsUnique();
+
+                entity.Property(e => e.CodUsuario).IsUnicode(false);
+
+                entity.Property(e => e.Contrasena).IsUnicode(false);
+
+                entity.Property(e => e.Rol).IsUnicode(false);
             });
 
             OnModelCreatingPartial(modelBuilder);

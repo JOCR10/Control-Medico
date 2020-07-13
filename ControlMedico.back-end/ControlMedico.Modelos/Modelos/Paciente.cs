@@ -6,7 +6,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ControlMedico.Modelos.Modelos
 {
-    public class Paciente
+    public partial class Paciente
     {
         [Key]
         public int IdPaciente { get; set; }
