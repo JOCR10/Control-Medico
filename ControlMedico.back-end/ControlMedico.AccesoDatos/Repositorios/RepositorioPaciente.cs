@@ -17,7 +17,10 @@ namespace ControlMedico.AccesoDatos.Repositorios
 
         public Paciente ObtenerPacientePorIdentificacion(string identificacion)
         {
+            //TO-DO obtención de pacientes por Cédula o nombre(like), refactorizar este método 
             return ContextoBaseDatos.Paciente.Where(b => b.Identificacion == identificacion).FirstOrDefault();
         }
+
+        
     }
 }
