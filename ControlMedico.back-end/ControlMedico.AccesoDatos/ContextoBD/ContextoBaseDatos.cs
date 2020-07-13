@@ -74,7 +74,6 @@ namespace ControlMedico.AccesoDatos.ContextoBD
 
             OnModelCreatingPartial(modelBuilder);
         }
-
         partial void OnModelCreatingPartial(ModelBuilder modelBuilder);
     }
 }

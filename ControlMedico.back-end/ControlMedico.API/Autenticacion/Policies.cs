@@ -9,7 +9,7 @@ namespace ControlMedico.API.Autenticacion
     public class Policies
     {
         public const string Admin = "Admin";
-        public const string User = "User";
+        public const string Consulta = "Consulta";
 
         public static AuthorizationPolicy AdminPolicy()
         {
@@ -18,7 +18,7 @@ namespace ControlMedico.API.Autenticacion
 
         public static AuthorizationPolicy UserPolicy()
         {
-            return new AuthorizationPolicyBuilder().RequireAuthenticatedUser().RequireRole(User).Build();
+            return new AuthorizationPolicyBuilder().RequireAuthenticatedUser().RequireRole(Consulta).Build();
         }
     }
 }
