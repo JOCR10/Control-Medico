@@ -3,6 +3,7 @@ using ControlMedico.API.Controllers.Base;
 using ControlMedico.Modelos.Modelos;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using System.Collections.Generic;
 
 namespace ControlMedico.API.Controllers
 {
@@ -19,6 +20,11 @@ namespace ControlMedico.API.Controllers
         public Paciente ObtenerPorIdentificacion(string identificacion)
         {
             return base.Repositorio.ObtenerPacientePorIdentificacion(identificacion);
+        }
+        [HttpGet("[action]")]
+        public IEnumerable<Paciente> ObtenerPacientes()
+        {
+            return base.Repositorio.ObtenerDatos();
         }
 
         [HttpGet("[action]/{id}")]

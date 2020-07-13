@@ -15,8 +15,7 @@ namespace ControlMedico.Modelos.Modelos
         [Required]
         [StringLength(100)]
         public string Contrasena { get; set; }
-        [Required]
-        [StringLength(50)]
+       
         public string Rol { get; set; }
     }
 }

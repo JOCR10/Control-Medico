@@ -5,3 +5,4 @@ F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.Mode
 F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.Modelos\obj\Debug\netcoreapp3.1\ControlMedico.Modelos.AssemblyInfo.cs
 F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.Modelos\obj\Debug\netcoreapp3.1\ControlMedico.Modelos.dll
 F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.Modelos\obj\Debug\netcoreapp3.1\ControlMedico.Modelos.pdb
+F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.Modelos\obj\Debug\netcoreapp3.1\ControlMedico.Modelos.csprojAssemblyReference.cache
