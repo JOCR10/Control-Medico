@@ -10,8 +10,8 @@ import { Router } from '@angular/router';
 export class AppComponent implements OnInit {
   private rol: string;
   isLoggedIn = false;
-  showAdminBoard = false;
-  showModeratorBoard = false;
+  showCitasView = false;
+  showPacientesView = false;
   username: string;
 
   constructor(private router:Router, private tokenStorageService: TokenStorageService) { }
@@ -23,8 +23,8 @@ export class AppComponent implements OnInit {
       const user = this.tokenStorageService.getUser();
       this.rol = user.rol;
 
-      this.showAdminBoard = this.rol === 'Admin';
-      this.showModeratorBoard = this.rol === ('Consulta');
+      this.showCitasView = this.rol === 'Admin';
+      this.showPacientesView = this.rol === 'Consulta' || this.rol === 'Admin';
 
       this.username = user.CodUsuario;
     }

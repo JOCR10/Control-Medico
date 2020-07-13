@@ -6,11 +6,8 @@ import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
-import { RegisterComponent } from './register/register.component';
-//import { HomeComponent } from './home/home.component';
-import { BoardAdminComponent } from './board-admin/board-admin.component';
-import { BoardUserComponent } from './board-user/board-user.component';
-import { BoardModeratorComponent } from './board-moderator/board-moderator.component';
+import { CitasComponent } from './citas/citas.component';
+import { PacientesComponent } from './pacientes/pacientes.component';
 import { ProfileComponent } from './profile/profile.component';
 import { authInterceptorProviders } from '../_helpers/auth.interceptor';
 import {APP_BASE_HREF} from '@angular/common';
@@ -20,11 +17,8 @@ import {APP_BASE_HREF} from '@angular/common';
   declarations: [
     AppComponent,
     LoginComponent,
-    RegisterComponent,
-    //HomeComponent,
-    BoardAdminComponent,
-    BoardUserComponent,
-    BoardModeratorComponent,
+    CitasComponent,
+    PacientesComponent, 
     ProfileComponent
   ],
   imports: [

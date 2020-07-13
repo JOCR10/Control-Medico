@@ -15,15 +15,7 @@ export class UserService {
     return this.http.get(API_URL + 'ObtenerPacientes', { responseType: 'text' });
   }
 
-  getUserBoard(): Observable<any> {
-    return this.http.get(API_URL + 'ObtenerPacientes', { responseType: 'text' });
-  }
-
-  getModeratorBoard(): Observable<any> {
-    return this.http.get(API_URL + 'ObtenerPacientes', { responseType: 'text' });
-  }
-
-  getAdminBoard(): Observable<any> {
-    return this.http.get(API_URL + 'ObtenerPacientes', { responseType: 'text' });
+  getCitas(): Observable<any> {
+    return this.http.get(API_URL + 'ObtenerCitas', { responseType: 'text' });
   }
 }
