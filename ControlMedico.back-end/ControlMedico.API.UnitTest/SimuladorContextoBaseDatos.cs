@@ -12,7 +12,7 @@ namespace ControlMedico.API.UnitTest
         public static ContextoBaseDatos ObtenerContextoBaseDatos(string baseDatos)
         {
             var options = new DbContextOptionsBuilder<ContextoBaseDatos>()
-                .UseInMemoryDatabase(databaseName: baseDatos)
+                .UseInMemoryDatabase(databaseName: baseDatos).EnableSensitiveDataLogging().UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking)
                 .Options;
             var dbContext = new ContextoBaseDatos(options);
             dbContext.CargarDatosSimulados();

@@ -7,11 +7,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ControlMedico.AccesoDatos",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ControlMedico.Modelos", "ControlMedico.Modelos\ControlMedico.Modelos.csproj", "{DD60AF22-92A5-495E-82A3-69D0E2416E24}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ControlMedico.Repositorios", "ControlMedico.Repositorios\ControlMedico.Repositorios.csproj", "{5BF2D666-8092-4CB4-8A20-1C0C51928987}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ControlMedico.Interfaces", "ControlMedico.Repositorios\ControlMedico.Interfaces.csproj", "{5BF2D666-8092-4CB4-8A20-1C0C51928987}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlMedico.API", "ControlMedico.API\ControlMedico.API.csproj", "{3706F97C-4138-44E9-B9FB-3FF8380E1E56}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ControlMedico.API", "ControlMedico.API\ControlMedico.API.csproj", "{3706F97C-4138-44E9-B9FB-3FF8380E1E56}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlMedico.API.UnitTest", "ControlMedico.API.UnitTest\ControlMedico.API.UnitTest.csproj", "{09DC80BB-5A2D-4678-A207-4F6291D880E1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ControlMedico.API.UnitTest", "ControlMedico.API.UnitTest\ControlMedico.API.UnitTest.csproj", "{09DC80BB-5A2D-4678-A207-4F6291D880E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlMedico.API.IntegrationTests", "ControlMedico.API.IntegrationTests\ControlMedico.API.IntegrationTests.csproj", "{1AFA9924-A215-4B88-BEE7-3A56CED50561}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{09DC80BB-5A2D-4678-A207-4F6291D880E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{09DC80BB-5A2D-4678-A207-4F6291D880E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{09DC80BB-5A2D-4678-A207-4F6291D880E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AFA9924-A215-4B88-BEE7-3A56CED50561}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AFA9924-A215-4B88-BEE7-3A56CED50561}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AFA9924-A215-4B88-BEE7-3A56CED50561}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AFA9924-A215-4B88-BEE7-3A56CED50561}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,11 +1,11 @@
 ﻿using ControlMedico.Modelos.Modelos;
-using ControlMedico.Repositorios.Base;
+using ControlMedico.Interfaces.Base;
 using System;
 using System.Collections.Generic;
-namespace ControlMedico.Repositorios
+namespace ControlMedico.Interfaces
 {
     public interface IRepositorioCita : IRepositorio<Cita>
     {
-        IEnumerable<Cita> ObtenerCitasPorFecha(DateTime fechaCita);
+        IEnumerable<Cita> ObtenerCitasPorCriterio(Cita filtroCita);
     }
 }

@@ -12,11 +12,9 @@ namespace ControlMedico.Modelos.Modelos
         [Column(TypeName = "datetime")]
         public DateTime FechaCita { get; set; }
         public int IdPaciente { get; set; }
-        public EnumTipoCita TipoCita { get; set; }
+        public EnumTipoCita? TipoCita { get; set; }
+        public string DesTipoCita { get { return ExtensionEnum.ObtenerDescripcionEnum((EnumTipoCita)TipoCita); } }
         public bool Cancelada { get; set; }
-
-        [ForeignKey(nameof(IdPaciente))]
-        [InverseProperty(nameof(Paciente.Cita))]
-        public virtual Paciente IdPacienteNavigation { get; set; }
+        public Paciente InfoPaciente { get; set; }
     }
 }

@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace ControlMedico.Repositorios.Base
+namespace ControlMedico.Interfaces.Base
 {
     public interface IRepositorio<TModelo> where TModelo : class
     {

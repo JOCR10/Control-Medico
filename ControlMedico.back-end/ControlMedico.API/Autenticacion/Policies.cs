@@ -16,7 +16,7 @@ namespace ControlMedico.API.Autenticacion
             return new AuthorizationPolicyBuilder().RequireAuthenticatedUser().RequireRole(Admin).Build();
         }
 
-        public static AuthorizationPolicy UserPolicy()
+        public static AuthorizationPolicy ConsultaPolicy()
         {
             return new AuthorizationPolicyBuilder().RequireAuthenticatedUser().RequireRole(Consulta).Build();
         }

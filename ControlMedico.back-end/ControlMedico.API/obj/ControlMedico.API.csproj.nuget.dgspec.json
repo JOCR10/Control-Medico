@@ -30,8 +30,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "F:\\Pruebas Técnicas\\GAP\\ControlMedico\\ControlMedico.back-end\\ControlMedico.Repositorios\\ControlMedico.Repositorios.csproj": {
-                "projectPath": "F:\\Pruebas Técnicas\\GAP\\ControlMedico\\ControlMedico.back-end\\ControlMedico.Repositorios\\ControlMedico.Repositorios.csproj"
+              "F:\\Pruebas Técnicas\\GAP\\ControlMedico\\ControlMedico.back-end\\ControlMedico.Repositorios\\ControlMedico.Interfaces.csproj": {
+                "projectPath": "F:\\Pruebas Técnicas\\GAP\\ControlMedico\\ControlMedico.back-end\\ControlMedico.Repositorios\\ControlMedico.Interfaces.csproj"
               }
             }
           }
@@ -114,8 +114,8 @@
               "F:\\Pruebas Técnicas\\GAP\\ControlMedico\\ControlMedico.back-end\\ControlMedico.AccesoDatos\\ControlMedico.AccesoDatos.csproj": {
                 "projectPath": "F:\\Pruebas Técnicas\\GAP\\ControlMedico\\ControlMedico.back-end\\ControlMedico.AccesoDatos\\ControlMedico.AccesoDatos.csproj"
               },
-              "F:\\Pruebas Técnicas\\GAP\\ControlMedico\\ControlMedico.back-end\\ControlMedico.Repositorios\\ControlMedico.Repositorios.csproj": {
-                "projectPath": "F:\\Pruebas Técnicas\\GAP\\ControlMedico\\ControlMedico.back-end\\ControlMedico.Repositorios\\ControlMedico.Repositorios.csproj"
+              "F:\\Pruebas Técnicas\\GAP\\ControlMedico\\ControlMedico.back-end\\ControlMedico.Repositorios\\ControlMedico.Interfaces.csproj": {
+                "projectPath": "F:\\Pruebas Técnicas\\GAP\\ControlMedico\\ControlMedico.back-end\\ControlMedico.Repositorios\\ControlMedico.Interfaces.csproj"
               }
             }
           }
@@ -219,12 +219,12 @@
         }
       }
     },
-    "F:\\Pruebas Técnicas\\GAP\\ControlMedico\\ControlMedico.back-end\\ControlMedico.Repositorios\\ControlMedico.Repositorios.csproj": {
+    "F:\\Pruebas Técnicas\\GAP\\ControlMedico\\ControlMedico.back-end\\ControlMedico.Repositorios\\ControlMedico.Interfaces.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Pruebas Técnicas\\GAP\\ControlMedico\\ControlMedico.back-end\\ControlMedico.Repositorios\\ControlMedico.Repositorios.csproj",
-        "projectName": "ControlMedico.Repositorios",
-        "projectPath": "F:\\Pruebas Técnicas\\GAP\\ControlMedico\\ControlMedico.back-end\\ControlMedico.Repositorios\\ControlMedico.Repositorios.csproj",
+        "projectUniqueName": "F:\\Pruebas Técnicas\\GAP\\ControlMedico\\ControlMedico.back-end\\ControlMedico.Repositorios\\ControlMedico.Interfaces.csproj",
+        "projectName": "ControlMedico.Interfaces",
+        "projectPath": "F:\\Pruebas Técnicas\\GAP\\ControlMedico\\ControlMedico.back-end\\ControlMedico.Repositorios\\ControlMedico.Interfaces.csproj",
         "packagesPath": "C:\\Users\\jrodrigueza\\.nuget\\packages\\",
         "outputPath": "F:\\Pruebas Técnicas\\GAP\\ControlMedico\\ControlMedico.back-end\\ControlMedico.Repositorios\\obj\\",
         "projectStyle": "PackageReference",

@@ -1,4 +1,4 @@
-﻿using ControlMedico.Repositorios.Base;
+﻿using ControlMedico.Interfaces.Base;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 

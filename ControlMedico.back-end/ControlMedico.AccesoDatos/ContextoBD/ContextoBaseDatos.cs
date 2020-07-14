@@ -31,11 +31,11 @@ namespace ControlMedico.AccesoDatos.ContextoBD
 3-Pediatría
 4-Neurología");
 
-                entity.HasOne(d => d.IdPacienteNavigation)
-                    .WithMany(p => p.Cita)
-                    .HasForeignKey(d => d.IdPaciente)
-                    .OnDelete(DeleteBehavior.ClientSetNull)
-                    .HasConstraintName("FK_CMCita_CMPaciente");
+                //entity.HasOne(d => d.IdPacienteNavigation)
+                //   .WithMany(p => p.Cita)
+                //   .HasForeignKey(d => d.IdPaciente)
+                //   .OnDelete(DeleteBehavior.ClientSetNull)
+                //   .HasConstraintName("FK_CMCita_CMPaciente");
             });
 
             modelBuilder.Entity<Paciente>(entity =>

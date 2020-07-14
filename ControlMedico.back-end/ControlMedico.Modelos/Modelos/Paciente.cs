@@ -10,16 +10,16 @@ namespace ControlMedico.Modelos.Modelos
     {
         [Key]
         public int IdPaciente { get; set; }
-        [Required]
         [StringLength(12)]
         public string Identificacion { get; set; }
         public EnumTipoIdentificacion TipoIdentificacion { get; set; }
-        [Required]
+        public string DesTipoIdentificacion { get { return ExtensionEnum.ObtenerDescripcionEnum((EnumTipoIdentificacion)TipoIdentificacion); } }
         [StringLength(100)]
         public string NombreCompleto { get; set; }
         [Column(TypeName = "date")]
         public DateTime FechaNacimiento { get; set; }
         public EnumGenero Genero { get; set; }
+        public string DesGenero { get { return ExtensionEnum.ObtenerDescripcionEnum((EnumGenero)Genero); } }
         [Required]
         [StringLength(250)]
         public string Residencia { get; set; }
@@ -27,7 +27,11 @@ namespace ControlMedico.Modelos.Modelos
         [StringLength(8)]
         public string Telefono { get; set; }
 
-        [InverseProperty("IdPacienteNavigation")]
-        public virtual ICollection<Cita> Cita { get; set; }
+        //[InverseProperty("IdPacienteNavigation")]
+        //public virtual ICollection<Cita> Cita { get; set; }
+
+
+
+
     }
 }

@@ -12,7 +12,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ControlMedico.AccesoDatos\ControlMedico.AccesoDatos.csproj" />
-    <ProjectReference Include="..\ControlMedico.Repositorios\ControlMedico.Repositorios.csproj" />
+    <ProjectReference Include="..\ControlMedico.Repositorios\ControlMedico.Interfaces.csproj" />
   </ItemGroup>
 
 

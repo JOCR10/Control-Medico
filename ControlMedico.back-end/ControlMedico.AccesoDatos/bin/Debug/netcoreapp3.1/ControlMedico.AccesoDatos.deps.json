@@ -8,7 +8,7 @@
     ".NETCoreApp,Version=v3.1": {
       "ControlMedico.AccesoDatos/1.0.0": {
         "dependencies": {
-          "ControlMedico.Repositorios": "1.0.0",
+          "ControlMedico.Interfaces": "1.0.0",
           "Microsoft.EntityFrameworkCore": "3.1.5",
           "Microsoft.EntityFrameworkCore.Design": "3.1.5",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.5",
@@ -869,17 +869,17 @@
           "System.Xml.XmlDocument": "4.3.0"
         }
       },
-      "ControlMedico.Modelos/1.0.0": {
-        "runtime": {
-          "ControlMedico.Modelos.dll": {}
-        }
-      },
-      "ControlMedico.Repositorios/1.0.0": {
+      "ControlMedico.Interfaces/1.0.0": {
         "dependencies": {
           "ControlMedico.Modelos": "1.0.0"
         },
         "runtime": {
-          "ControlMedico.Repositorios.dll": {}
+          "ControlMedico.Interfaces.dll": {}
+        }
+      },
+      "ControlMedico.Modelos/1.0.0": {
+        "runtime": {
+          "ControlMedico.Modelos.dll": {}
         }
       }
     }
@@ -1506,12 +1506,12 @@
       "path": "system.xml.xmlserializer/4.3.0",
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
     },
-    "ControlMedico.Modelos/1.0.0": {
+    "ControlMedico.Interfaces/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "ControlMedico.Repositorios/1.0.0": {
+    "ControlMedico.Modelos/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -220,9 +220,7 @@ F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.API\
 F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.API\bin\Debug\netcoreapp3.1\ControlMedico.AccesoDatos.dll
 F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.API\bin\Debug\netcoreapp3.1\ControlMedico.Modelos.dll
-F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.API\bin\Debug\netcoreapp3.1\ControlMedico.Repositorios.dll
 F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.API\bin\Debug\netcoreapp3.1\ControlMedico.AccesoDatos.pdb
-F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.API\bin\Debug\netcoreapp3.1\ControlMedico.Repositorios.pdb
 F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.API\bin\Debug\netcoreapp3.1\ControlMedico.Modelos.pdb
 F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.API\obj\Debug\netcoreapp3.1\ControlMedico.API.csprojAssemblyReference.cache
 F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.API\obj\Debug\netcoreapp3.1\staticwebassets\ControlMedico.API.StaticWebAssets.Manifest.cache
@@ -234,3 +232,5 @@ F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.API\
 F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.API\obj\Debug\netcoreapp3.1\ControlMedico.API.csproj.CopyComplete
 F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.API\obj\Debug\netcoreapp3.1\ControlMedico.API.dll
 F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.API\obj\Debug\netcoreapp3.1\ControlMedico.API.pdb
+F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.API\bin\Debug\netcoreapp3.1\ControlMedico.Interfaces.dll
+F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.API\bin\Debug\netcoreapp3.1\ControlMedico.Interfaces.pdb

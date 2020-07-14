@@ -2576,7 +2576,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
-          "ControlMedico.Repositorios": "1.0.0",
+          "ControlMedico.Interfaces": "1.0.0",
           "Microsoft.EntityFrameworkCore": "3.1.5",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.5"
         },
@@ -2587,6 +2587,19 @@
           "bin/placeholder/ControlMedico.AccesoDatos.dll": {}
         }
       },
+      "ControlMedico.Interfaces/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "ControlMedico.Modelos": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ControlMedico.Interfaces.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ControlMedico.Interfaces.dll": {}
+        }
+      },
       "ControlMedico.Modelos/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -2595,19 +2608,6 @@
         },
         "runtime": {
           "bin/placeholder/ControlMedico.Modelos.dll": {}
-        }
-      },
-      "ControlMedico.Repositorios/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "dependencies": {
-          "ControlMedico.Modelos": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/ControlMedico.Repositorios.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/ControlMedico.Repositorios.dll": {}
         }
       }
     }
@@ -8412,21 +8412,21 @@
       "path": "../ControlMedico.AccesoDatos/ControlMedico.AccesoDatos.csproj",
       "msbuildProject": "../ControlMedico.AccesoDatos/ControlMedico.AccesoDatos.csproj"
     },
+    "ControlMedico.Interfaces/1.0.0": {
+      "type": "project",
+      "path": "../ControlMedico.Repositorios/ControlMedico.Interfaces.csproj",
+      "msbuildProject": "../ControlMedico.Repositorios/ControlMedico.Interfaces.csproj"
+    },
     "ControlMedico.Modelos/1.0.0": {
       "type": "project",
       "path": "../ControlMedico.Modelos/ControlMedico.Modelos.csproj",
       "msbuildProject": "../ControlMedico.Modelos/ControlMedico.Modelos.csproj"
-    },
-    "ControlMedico.Repositorios/1.0.0": {
-      "type": "project",
-      "path": "../ControlMedico.Repositorios/ControlMedico.Repositorios.csproj",
-      "msbuildProject": "../ControlMedico.Repositorios/ControlMedico.Repositorios.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "ControlMedico.AccesoDatos >= 1.0.0",
-      "ControlMedico.Repositorios >= 1.0.0",
+      "ControlMedico.Interfaces >= 1.0.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 3.1.5",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 3.1.3",
       "NETCore.Encrypt >= 2.0.9"
@@ -8465,8 +8465,8 @@
             "F:\\Pruebas Técnicas\\GAP\\ControlMedico\\ControlMedico.back-end\\ControlMedico.AccesoDatos\\ControlMedico.AccesoDatos.csproj": {
               "projectPath": "F:\\Pruebas Técnicas\\GAP\\ControlMedico\\ControlMedico.back-end\\ControlMedico.AccesoDatos\\ControlMedico.AccesoDatos.csproj"
             },
-            "F:\\Pruebas Técnicas\\GAP\\ControlMedico\\ControlMedico.back-end\\ControlMedico.Repositorios\\ControlMedico.Repositorios.csproj": {
-              "projectPath": "F:\\Pruebas Técnicas\\GAP\\ControlMedico\\ControlMedico.back-end\\ControlMedico.Repositorios\\ControlMedico.Repositorios.csproj"
+            "F:\\Pruebas Técnicas\\GAP\\ControlMedico\\ControlMedico.back-end\\ControlMedico.Repositorios\\ControlMedico.Interfaces.csproj": {
+              "projectPath": "F:\\Pruebas Técnicas\\GAP\\ControlMedico\\ControlMedico.back-end\\ControlMedico.Repositorios\\ControlMedico.Interfaces.csproj"
             }
           }
         }

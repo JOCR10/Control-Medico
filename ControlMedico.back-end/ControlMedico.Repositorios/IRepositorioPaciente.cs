@@ -1,10 +1,10 @@
 ﻿using ControlMedico.Modelos.Modelos;
-using ControlMedico.Repositorios.Base;
+using ControlMedico.Interfaces.Base;
 using System.Collections.Generic;
-namespace ControlMedico.Repositorios
+namespace ControlMedico.Interfaces
 {
     public interface IRepositorioPaciente : IRepositorio<Paciente>
     {
-        Paciente ObtenerPacientePorIdentificacion(string identificacion);
+        IEnumerable<Paciente> ObtenerPacientePorCriterio(Paciente filtroPaciente);
     }
 }

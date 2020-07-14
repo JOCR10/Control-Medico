@@ -32,7 +32,7 @@ namespace ControlMedico.API
             services.AddCors();
             services.AddControllers();
 
-            services.AddScoped<RepositorioPaciente>();
+            services.AddScoped<RepositorioCita>();
             services.AddScoped<RepositorioCita>();
             services.AddScoped<RepositorioUsuario>();
             services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
@@ -58,7 +58,7 @@ namespace ControlMedico.API
             services.AddAuthorization(config =>
             {
                 config.AddPolicy(Policies.Admin, Policies.AdminPolicy());
-                config.AddPolicy(Policies.User, Policies.UserPolicy());
+                config.AddPolicy(Policies.Consulta, Policies.ConsultaPolicy());
             });
 
             services.AddDbContext<ContextoBaseDatos>(options =>

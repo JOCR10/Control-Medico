@@ -1,0 +1,11 @@
+F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.Repositorios\bin\Debug\netcoreapp3.1\ControlMedico.Interfaces.deps.json
+F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.Repositorios\bin\Debug\netcoreapp3.1\ControlMedico.Interfaces.dll
+F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.Repositorios\bin\Debug\netcoreapp3.1\ControlMedico.Interfaces.pdb
+F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.Repositorios\bin\Debug\netcoreapp3.1\ControlMedico.Modelos.dll
+F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.Repositorios\bin\Debug\netcoreapp3.1\ControlMedico.Modelos.pdb
+F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.Repositorios\obj\Debug\netcoreapp3.1\ControlMedico.Interfaces.csprojAssemblyReference.cache
+F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.Repositorios\obj\Debug\netcoreapp3.1\ControlMedico.Interfaces.AssemblyInfoInputs.cache
+F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.Repositorios\obj\Debug\netcoreapp3.1\ControlMedico.Interfaces.AssemblyInfo.cs
+F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.Repositorios\obj\Debug\netcoreapp3.1\ControlMedico.Interfaces.csproj.CopyComplete
+F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.Repositorios\obj\Debug\netcoreapp3.1\ControlMedico.Interfaces.dll
+F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.Repositorios\obj\Debug\netcoreapp3.1\ControlMedico.Interfaces.pdb

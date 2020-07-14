@@ -5,6 +5,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Repositorios\RepositorioCita.cs~RFccb695f.TMP" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.5" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.5">
       <PrivateAssets>all</PrivateAssets>
@@ -18,7 +22,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ControlMedico.Repositorios\ControlMedico.Repositorios.csproj" />
+    <ProjectReference Include="..\ControlMedico.Repositorios\ControlMedico.Interfaces.csproj" />
   </ItemGroup>
 
 </Project>

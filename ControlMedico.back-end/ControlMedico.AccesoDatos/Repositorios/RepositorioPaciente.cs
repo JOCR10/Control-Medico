@@ -1,8 +1,8 @@
 ﻿using ControlMedico.AccesoDatos.ContextoBD;
 using ControlMedico.Modelos.Modelos;
-using ControlMedico.Repositorios;
-using System.Collections.Generic;
+using ControlMedico.Interfaces;
 using System.Linq;
+using System.Collections.Generic;
 
 namespace ControlMedico.AccesoDatos.Repositorios
 {
@@ -15,12 +15,33 @@ namespace ControlMedico.AccesoDatos.Repositorios
 
         public RepositorioPaciente(ContextoBaseDatos context) : base(context) { }
 
-        public Paciente ObtenerPacientePorIdentificacion(string identificacion)
+        public IEnumerable<Paciente> ObtenerPacientePorCriterio(Paciente filtroPaciente)
         {
-            //TO-DO obtención de pacientes por Cédula o nombre(like), refactorizar este método 
-            return ContextoBaseDatos.Paciente.Where(b => b.Identificacion == identificacion).FirstOrDefault();
+            return base.ObtenerDatos().Where(paciente => (filtroPaciente.Identificacion == null || paciente.Identificacion == filtroPaciente.Identificacion)
+               && (filtroPaciente.NombreCompleto == null || paciente.NombreCompleto.Contains(filtroPaciente.NombreCompleto)));
         }
 
-        
+        public void RegistrarPaciente(Paciente paciente)
+        {
+            if (!ExistePaciente(paciente.Identificacion))
+            {
+                base.Insertar(paciente);
+            }
+        }
+
+        private bool ExistePaciente(string identificacion)
+        {
+            return ObtenerPacientePorCriterio(new Paciente
+            {
+                Identificacion = identificacion
+            }).Any();
+        }
+
+        public void Commit()
+        {
+            ContextoBaseDatos.SaveChanges();
+        }
+
+
     }
 }

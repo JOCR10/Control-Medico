@@ -208,14 +208,14 @@ F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.API.
 F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.API.UnitTest\bin\Debug\netcoreapp3.1\ControlMedico.AccesoDatos.dll
 F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.API.UnitTest\bin\Debug\netcoreapp3.1\ControlMedico.API.dll
 F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.API.UnitTest\bin\Debug\netcoreapp3.1\ControlMedico.Modelos.dll
-F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.API.UnitTest\bin\Debug\netcoreapp3.1\ControlMedico.Repositorios.dll
 F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.API.UnitTest\bin\Debug\netcoreapp3.1\ControlMedico.API.pdb
 F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.API.UnitTest\bin\Debug\netcoreapp3.1\ControlMedico.AccesoDatos.pdb
 F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.API.UnitTest\bin\Debug\netcoreapp3.1\ControlMedico.Modelos.pdb
-F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.API.UnitTest\bin\Debug\netcoreapp3.1\ControlMedico.Repositorios.pdb
 F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.API.UnitTest\obj\Debug\netcoreapp3.1\ControlMedico.API.UnitTest.csprojAssemblyReference.cache
 F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.API.UnitTest\obj\Debug\netcoreapp3.1\ControlMedico.API.UnitTest.AssemblyInfoInputs.cache
 F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.API.UnitTest\obj\Debug\netcoreapp3.1\ControlMedico.API.UnitTest.AssemblyInfo.cs
 F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.API.UnitTest\obj\Debug\netcoreapp3.1\ControlMedico.API.UnitTest.csproj.CopyComplete
 F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.API.UnitTest\obj\Debug\netcoreapp3.1\ControlMedico.API.UnitTest.dll
 F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.API.UnitTest\obj\Debug\netcoreapp3.1\ControlMedico.API.UnitTest.pdb
+F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.API.UnitTest\bin\Debug\netcoreapp3.1\ControlMedico.Interfaces.dll
+F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.API.UnitTest\bin\Debug\netcoreapp3.1\ControlMedico.Interfaces.pdb

@@ -25,7 +25,7 @@
       "ControlMedico.API/1.0.0": {
         "dependencies": {
           "ControlMedico.AccesoDatos": "1.0.0",
-          "ControlMedico.Repositorios": "1.0.0",
+          "ControlMedico.Interfaces": "1.0.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "3.1.5",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "3.1.3",
           "NETCore.Encrypt": "2.0.9",
@@ -2211,7 +2211,7 @@
       },
       "ControlMedico.AccesoDatos/1.0.0": {
         "dependencies": {
-          "ControlMedico.Repositorios": "1.0.0",
+          "ControlMedico.Interfaces": "1.0.0",
           "Microsoft.EntityFrameworkCore": "3.1.5",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.5"
         },
@@ -2222,23 +2222,23 @@
           "ControlMedico.AccesoDatos.dll": {}
         }
       },
+      "ControlMedico.Interfaces/1.0.0": {
+        "dependencies": {
+          "ControlMedico.Modelos": "1.0.0"
+        },
+        "runtime": {
+          "ControlMedico.Interfaces.dll": {}
+        },
+        "compile": {
+          "ControlMedico.Interfaces.dll": {}
+        }
+      },
       "ControlMedico.Modelos/1.0.0": {
         "runtime": {
           "ControlMedico.Modelos.dll": {}
         },
         "compile": {
           "ControlMedico.Modelos.dll": {}
-        }
-      },
-      "ControlMedico.Repositorios/1.0.0": {
-        "dependencies": {
-          "ControlMedico.Modelos": "1.0.0"
-        },
-        "runtime": {
-          "ControlMedico.Repositorios.dll": {}
-        },
-        "compile": {
-          "ControlMedico.Repositorios.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/3.1.0.0": {
@@ -4981,12 +4981,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "ControlMedico.Modelos/1.0.0": {
+    "ControlMedico.Interfaces/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "ControlMedico.Repositorios/1.0.0": {
+    "ControlMedico.Modelos/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

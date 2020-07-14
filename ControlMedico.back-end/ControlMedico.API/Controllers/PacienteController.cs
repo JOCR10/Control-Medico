@@ -1,4 +1,5 @@
 ﻿using ControlMedico.AccesoDatos.Repositorios;
+using ControlMedico.AccesoDatos.Util;
 using ControlMedico.API.Controllers.Base;
 using ControlMedico.Modelos.Modelos;
 using Microsoft.AspNetCore.Authorization;
@@ -17,20 +18,14 @@ namespace ControlMedico.API.Controllers
         }
 
         [HttpGet("[action]/{identificacion}")]
-        public Paciente ObtenerPorIdentificacion(string identificacion)
+        public IEnumerable<Paciente> ObtenerPorCriterio([FromBody]Paciente paciente)
         {
-            return base.Repositorio.ObtenerPacientePorIdentificacion(identificacion);
+            return base.Repositorio.ObtenerPacientePorCriterio(paciente);
         }
         [HttpGet("[action]")]
         public IEnumerable<Paciente> ObtenerPacientes()
         {
             return base.Repositorio.ObtenerDatos();
-        }
-
-        [HttpGet("[action]/{id}")]
-        public Paciente ObtenerPorID(int id)
-        {
-            return base.Repositorio.ObtenerPorID(id);
         }
     }
 }
