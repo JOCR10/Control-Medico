@@ -17,7 +17,7 @@ namespace ControlMedico.API.IntegrationTests
         }
 
         [Fact]
-        public async Task TestGetStockItemsAsync()
+        public async Task TestLogin()
         {
             // Arrange
             var request = new
@@ -37,7 +37,7 @@ namespace ControlMedico.API.IntegrationTests
         }
 
         [Fact]
-        public async Task TestPostStockItemAsync()
+        public async Task TestCancelarCita()
         {
             // Arrange
             var request = new
