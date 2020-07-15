@@ -41,8 +41,8 @@ namespace ControlMedico.AccesoDatos.Repositorios
                         TipoIdentificacion = paciente.TipoIdentificacion
                     }
                 })
-                .Where(citaPaciente => (filtroCita.FechaCita == null || citaPaciente.FechaCita == filtroCita.FechaCita) && (filtroCita.InfoPaciente.Identificacion == null
-                || citaPaciente.InfoPaciente.Identificacion == filtroCita.InfoPaciente.Identificacion) && (filtroCita.TipoCita == null || citaPaciente.TipoCita == filtroCita.TipoCita)).ToList();
+                .Where(citaPaciente => (filtroCita.FechaCita == null || citaPaciente.FechaCita == filtroCita.FechaCita) && (filtroCita.InfoPaciente?.Identificacion == null
+                || citaPaciente.InfoPaciente?.Identificacion == filtroCita.InfoPaciente?.Identificacion) && (filtroCita.TipoCita == null || citaPaciente.TipoCita == filtroCita.TipoCita)).ToList();
         }
 
         private bool ExisteCita(string identificacion, DateTime fechaCita)
@@ -60,7 +60,7 @@ namespace ControlMedico.AccesoDatos.Repositorios
 
         public bool RegistrarCita(Cita cita)
         {
-            if (ExisteCita(cita.InfoPaciente.Identificacion, cita.FechaCita))
+            if (ExisteCita(cita.InfoPaciente.Identificacion, cita.FechaCita.Value))
             {
                 return false;
             }
@@ -70,7 +70,7 @@ namespace ControlMedico.AccesoDatos.Repositorios
 
         private bool CancelacionEsValida(Cita cita)
         {
-            return (cita.FechaCita - DateTime.Today).TotalHours >= 24;
+            return (cita.FechaCita.Value - DateTime.Today).TotalHours >= 24;
         }
 
         public bool CancelarCita(Cita cita)

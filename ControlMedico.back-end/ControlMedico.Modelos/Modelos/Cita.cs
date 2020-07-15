@@ -10,9 +10,9 @@ namespace ControlMedico.Modelos.Modelos
         [Key]
         public int IdCita { get; set; }
         [Column(TypeName = "datetime")]
-        public DateTime FechaCita { get; set; }
+        public DateTime? FechaCita { get; set; }
         public int IdPaciente { get; set; }
-        public EnumTipoCita TipoCita { get; set; }
+        public EnumTipoCita? TipoCita { get; set; }
         public string DesTipoCita { get { return ExtensionEnum.ObtenerDescripcionEnum((EnumTipoCita)TipoCita); } }
         public bool? Cancelada { get; set; }
 

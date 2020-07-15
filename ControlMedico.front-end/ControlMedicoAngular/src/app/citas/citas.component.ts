@@ -13,7 +13,9 @@ export class CitasComponent implements OnInit, OnDestroy {
   content = '';
   subscription: Subscription;
   modeloCita: Cita = new Cita();
-  citas: Cita[];
+  citas: Cita[] = [];
+  citaCancelada: boolean;
+  citaRegistrada: boolean;
 
   constructor(private citaService: CitaService) { }
 
@@ -31,6 +33,26 @@ export class CitasComponent implements OnInit, OnDestroy {
       (
         (result) => {
           this.citas = (result as Cita[]);
+        }
+      );
+  }
+
+  public RegistrarCita() {
+    this.subscription = this.citaService.RegistrarCita(this.modeloCita)
+      .subscribe
+      (
+        (result) => {
+          this.citaRegistrada = (result as boolean);
+        }
+      );
+  }
+
+  public CancelarCita() {
+    this.subscription = this.citaService.CancelarCita(this.modeloCita)
+      .subscribe
+      (
+        (result) => {
+          this.citaCancelada = (result as boolean);
         }
       );
   }

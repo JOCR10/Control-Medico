@@ -9,18 +9,18 @@ namespace ControlMedico.Modelos.Util
     {
         [Description("Física nacional")]
         Fisica = 1,
-        [Description("Extranjero")] 
+        [Description("Extranjero")]
         Extranjero,
-        [Description("Diplomático")] 
+        [Description("Diplomático")]
         Diplomatico
     }
 
     public enum EnumGenero
     {
         [Description("Femenino")]
-        Femenino = 1, 
-        [Description("Masculino")] 
-        Masculino=2
+        Femenino = 1,
+        [Description("Masculino")]
+        Masculino = 2
     }
     public enum EnumTipoCita
     {
@@ -28,9 +28,9 @@ namespace ControlMedico.Modelos.Util
         MedicinaGeneral = 1,
         [Description("Odontología")]
         Odontologia = 2,
-        [Description("Pediatría")] 
+        [Description("Pediatría")]
         Pediatria = 3,
-        [Description("Neurología")] 
+        [Description("Neurología")]
         Neurologia = 4
     }
 
@@ -40,7 +40,7 @@ namespace ControlMedico.Modelos.Util
         {
             FieldInfo info = valor.GetType().GetField(valor.ToString());
 
-            DescriptionAttribute[] atributos = info.GetCustomAttributes(typeof(DescriptionAttribute), false) as DescriptionAttribute[];
+            DescriptionAttribute[] atributos = info != null ? info.GetCustomAttributes(typeof(DescriptionAttribute), false) as DescriptionAttribute[] : null;
 
             if (atributos != null && atributos.Any())
             {

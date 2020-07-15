@@ -25,7 +25,7 @@ namespace ControlMedico.API.Controllers
         [HttpGet("[action]")]
         public IEnumerable<Paciente> ObtenerPacientes()
         {
-            return base.Repositorio.ObtenerDatos();
+            return base.Repositorio.ObtenerPacientePorCriterio(new Paciente());
         }
     }
 }

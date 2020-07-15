@@ -1,0 +1,16 @@
+F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\.vs\ControlMedico\v16\lut\0\b\ControlMedico.API.IntegrationTests\Debug\netcoreapp3.1\appsettings.Development.json
+F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\.vs\ControlMedico\v16\lut\0\b\ControlMedico.API.IntegrationTests\Debug\netcoreapp3.1\appsettings.json
+F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\.vs\ControlMedico\v16\lut\0\b\ControlMedico.API.IntegrationTests\Debug\netcoreapp3.1\Properties\launchSettings.json
+F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\.vs\ControlMedico\v16\lut\0\b\ControlMedico.API.IntegrationTests\Debug\netcoreapp3.1\ControlMedico.API.exe
+F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\.vs\ControlMedico\v16\lut\0\b\ControlMedico.API.IntegrationTests\Debug\netcoreapp3.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\.vs\ControlMedico\v16\lut\0\b\ControlMedico.API.IntegrationTests\Debug\netcoreapp3.1\xunit.runner.reporters.netcoreapp10.dll
+F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\.vs\ControlMedico\v16\lut\0\b\ControlMedico.API.IntegrationTests\Debug\netcoreapp3.1\xunit.runner.utility.netcoreapp10.dll
+F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\.vs\ControlMedico\v16\lut\0\b\ControlMedico.API.IntegrationTests\Debug\netcoreapp3.1\ControlMedico.API.IntegrationTests.deps.json
+F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\.vs\ControlMedico\v16\lut\0\b\ControlMedico.API.IntegrationTests\Debug\netcoreapp3.1\ControlMedico.API.IntegrationTests.runtimeconfig.json
+F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\.vs\ControlMedico\v16\lut\0\b\ControlMedico.API.IntegrationTests\Debug\netcoreapp3.1\ControlMedico.API.IntegrationTests.runtimeconfig.dev.json
+F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\.vs\ControlMedico\v16\lut\0\b\ControlMedico.API.IntegrationTests\Debug\netcoreapp3.1\ControlMedico.API.IntegrationTests.dll
+F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\.vs\ControlMedico\v16\lut\0\i\ControlMedico.API.IntegrationTests\Debug\netcoreapp3.1\ControlMedico.API.IntegrationTests.csprojAssemblyReference.cache
+F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\.vs\ControlMedico\v16\lut\0\i\ControlMedico.API.IntegrationTests\Debug\netcoreapp3.1\ControlMedico.API.IntegrationTests.AssemblyInfoInputs.cache
+F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\.vs\ControlMedico\v16\lut\0\i\ControlMedico.API.IntegrationTests\Debug\netcoreapp3.1\ControlMedico.API.IntegrationTests.AssemblyInfo.cs
+F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\.vs\ControlMedico\v16\lut\0\i\ControlMedico.API.IntegrationTests\Debug\netcoreapp3.1\ControlMedico.API.IntegrationTests.csproj.CopyComplete
+F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\.vs\ControlMedico\v16\lut\0\i\ControlMedico.API.IntegrationTests\Debug\netcoreapp3.1\ControlMedico.API.IntegrationTests.dll

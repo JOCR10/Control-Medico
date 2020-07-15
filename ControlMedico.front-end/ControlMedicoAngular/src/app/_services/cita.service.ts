@@ -17,4 +17,12 @@ export class CitaService {
   public getCitasPorCriterio(body) {
     return this.http.post(API_URL + 'ObtenerCitasPorCriterio', body);
   }
+
+  public RegistrarCita(body) {
+    return this.http.post(API_URL + 'RegistrarCita', body);
+  }
+
+  public CancelarCita(body) {
+    return this.http.post(API_URL + 'CancelarCita', body);
+  }
 }

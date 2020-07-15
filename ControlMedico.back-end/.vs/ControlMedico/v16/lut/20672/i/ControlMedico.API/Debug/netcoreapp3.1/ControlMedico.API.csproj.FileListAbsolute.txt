@@ -1,0 +1,16 @@
+F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\.vs\ControlMedico\v16\lut\0\b\ControlMedico.API\Debug\netcoreapp3.1\appsettings.Development.json
+F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\.vs\ControlMedico\v16\lut\0\b\ControlMedico.API\Debug\netcoreapp3.1\appsettings.json
+F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\.vs\ControlMedico\v16\lut\0\b\ControlMedico.API\Debug\netcoreapp3.1\Properties\launchSettings.json
+F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\.vs\ControlMedico\v16\lut\0\b\ControlMedico.API\Debug\netcoreapp3.1\ControlMedico.API.exe
+F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\.vs\ControlMedico\v16\lut\0\b\ControlMedico.API\Debug\netcoreapp3.1\ControlMedico.API.deps.json
+F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\.vs\ControlMedico\v16\lut\0\b\ControlMedico.API\Debug\netcoreapp3.1\ControlMedico.API.runtimeconfig.json
+F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\.vs\ControlMedico\v16\lut\0\b\ControlMedico.API\Debug\netcoreapp3.1\ControlMedico.API.runtimeconfig.dev.json
+F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\.vs\ControlMedico\v16\lut\0\b\ControlMedico.API\Debug\netcoreapp3.1\ControlMedico.API.dll
+F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\.vs\ControlMedico\v16\lut\0\i\ControlMedico.API\Debug\netcoreapp3.1\ControlMedico.API.csprojAssemblyReference.cache
+F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\.vs\ControlMedico\v16\lut\0\i\ControlMedico.API\Debug\netcoreapp3.1\staticwebassets\ControlMedico.API.StaticWebAssets.Manifest.cache
+F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\.vs\ControlMedico\v16\lut\0\i\ControlMedico.API\Debug\netcoreapp3.1\staticwebassets\ControlMedico.API.StaticWebAssets.xml
+F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\.vs\ControlMedico\v16\lut\0\i\ControlMedico.API\Debug\netcoreapp3.1\ControlMedico.API.AssemblyInfoInputs.cache
+F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\.vs\ControlMedico\v16\lut\0\i\ControlMedico.API\Debug\netcoreapp3.1\ControlMedico.API.AssemblyInfo.cs
+F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\.vs\ControlMedico\v16\lut\0\i\ControlMedico.API\Debug\netcoreapp3.1\ControlMedico.API.RazorTargetAssemblyInfo.cache
+F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\.vs\ControlMedico\v16\lut\0\i\ControlMedico.API\Debug\netcoreapp3.1\ControlMedico.API.csproj.CopyComplete
+F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\.vs\ControlMedico\v16\lut\0\i\ControlMedico.API\Debug\netcoreapp3.1\ControlMedico.API.dll

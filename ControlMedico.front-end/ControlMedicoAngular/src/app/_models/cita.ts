@@ -2,10 +2,10 @@ import { Paciente } from './paciente';
 
 export class Cita {
     IdCita: number;
-    FechaCita: Date; 
+    FechaCita: Date;
     IdPaciente: number;
-    TipoCita : EnumTipoCita;
-    DesTipoCita :string;
-    Cancelada : boolean;
+    TipoCita: EnumTipoCita;
+    DesTipoCita: string;
+    Cancelada: boolean;
     InfoPaciente: Paciente;
 }

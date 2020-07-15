@@ -1,15 +1,30 @@
-﻿using System;
-using System.Threading.Tasks;
-using ControlMedico.Modelos.Modelos;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using ControlMedico.Modelos.Modelos;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
+using System;
+using System.Collections.Generic;
 using System.Net.Http;
 using System.Net.Http.Headers;
+using System.Text;
+using System.Threading.Tasks;
+using Xunit;
 
 namespace ControlMedico.API.IntegrationTests
 {
-    [TestClass]
-    public class ControllersTest : IntegrationTestInitializer
+    public class ControllersTest : IClassFixture<TestAPI<Startup>>
     {
+        private HttpClient Client;
+
+        public class Auth
+        {
+            public Usuario userDetails { get; set; }
+            public string token { get; set; }
+        }
+
+        public ControllersTest(TestAPI<Startup> api)
+        {
+            Client = api.Client;
+        }
 
         private async Task<string> GetToken(string userName, string password)
         {
@@ -19,16 +34,16 @@ namespace ControlMedico.API.IntegrationTests
                 Contrasena = password
             };
 
-            var res = await _client.PostAsJsonAsync("/api/Autenticacion/Login", user);
+            var res = await Client.PostAsJsonAsync("api/autenticacion/login", user);
 
-            if (!res.IsSuccessStatusCode) return null;
+            //var a = JsonConvert.DeserializeObject(res.Content.ReadAsStringAsync().Result);
+            var content = await res.Content.ReadAsStringAsync();
+            Auth infoauth = JsonConvert.DeserializeObject<Auth>(content);
 
-            var userModel = await res.Content.ReadAsAsync<Usuario>();
-
-            return userModel?.CodUsuario;
-
+            return infoauth.token;
         }
-        [TestMethod]
+
+        [Fact]
         public async Task TestLogin()
         {
             // Arrange
@@ -42,32 +57,38 @@ namespace ControlMedico.API.IntegrationTests
                 }
             };
             // Act
-            var response = await _client.PostAsync(request.Url, ContentHelper.GetStringContent(request.Body));
+            var response = await Client.PostAsync(request.Url, ContentHelper.GetStringContent(request.Body));
 
             // Assert
             response.EnsureSuccessStatusCode();
         }
 
-        [TestMethod]
+        [Fact]
         public async Task TestObtenerPacientes()
         {
-            var token = await GetToken("foo", "bar");
-            _client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
-
+            var token = await GetToken("admin", "admin123");
+            Client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
             // Arrange
             var request = new
             {
                 Url = "/api/pacientes/ObtenerPacientes"
             };
+
+
+
             // Act
-            var response = await _client.GetAsync(request.Url);
+            var response = await Client.GetAsync(request.Url);
 
             // Assert
             response.EnsureSuccessStatusCode();
         }
-        [TestMethod]
+
+        [Fact]
         public async Task TestCancelarCita()
         {
+            var token = await GetToken("admin", "admin123");
+            Client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
+
             // Arrange
             var request = new
             {
@@ -83,7 +104,7 @@ namespace ControlMedico.API.IntegrationTests
             };
 
             // Act
-            var response = await _client.PostAsync(request.Url, ContentHelper.GetStringContent(request.Body));
+            var response = await Client.PostAsync(request.Url, ContentHelper.GetStringContent(request.Body));
             var value = await response.Content.ReadAsStringAsync();
 
             // Assert

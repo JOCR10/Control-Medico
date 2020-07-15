@@ -9,5 +9,4 @@ export class Paciente {
     DesGenero: string;
     Residencia: string;
     Telefono: string;
-
 }

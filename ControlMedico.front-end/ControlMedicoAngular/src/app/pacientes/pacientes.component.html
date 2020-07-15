@@ -1,4 +1,4 @@
-<form name="form" class="p-3" (ngSubmit)="f.form.valid && onClickSubmit(buttonType)" #f="ngForm" novalidate>
+<form name="formPacientes" class="p-3" (ngSubmit)="f.form.valid && onClickSubmit(buttonType)" #f="ngForm" novalidate>
     <div class="form-group form-row align-items-center p-3">
         <div class="card">
             <div class="col-auto col-sm-12 card-header h5">Filtros:</div>
@@ -23,14 +23,14 @@
         </div>
         <div class="form-check">
             <input id="NombreCompleto" name="NombreCompleto" [(ngModel)]="modeloPaciente.NombreCompleto"
-                #Identificacion="ngModel" type="text" class="form-control mb-2" placeholder="Nombre">
+                #NombreCompleto="ngModel" type="text" class="form-control mb-2" placeholder="Nombre">
         </div>
         <div class="p-3 form-row">
             <button type="submit" (click)="onClickSubmit('Buscar')" class="btn btn-primary btn-lg mb-2">
                 <i class="fa fa-search"></i>Buscar
             </button>
         </div>
-        <div class="form-group p-3" *ngIf="pacientes.rowData.lenght>0">
+        <div class="form-group p-3" *ngIf="pacientes">
             <table class="table table-hover">
                 <thead class="thead-light">
                     <tr>

@@ -33,7 +33,7 @@ namespace ControlMedico.API
             services.AddControllers();
 
             services.AddScoped<RepositorioCita>();
-            services.AddScoped<RepositorioCita>();
+            services.AddScoped<RepositorioPaciente>();
             services.AddScoped<RepositorioUsuario>();
             services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
 

@@ -12,7 +12,9 @@ F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.Acce
 F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.AccesoDatos\bin\Debug\netcoreapp3.1\ControlMedico.AccesoDatos.runtimeconfig.dev.json
 F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.AccesoDatos\bin\Debug\netcoreapp3.1\ControlMedico.AccesoDatos.dll
 F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.AccesoDatos\bin\Debug\netcoreapp3.1\ControlMedico.AccesoDatos.pdb
+F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.AccesoDatos\bin\Debug\netcoreapp3.1\ControlMedico.Interfaces.dll
 F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.AccesoDatos\bin\Debug\netcoreapp3.1\ControlMedico.Modelos.dll
+F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.AccesoDatos\bin\Debug\netcoreapp3.1\ControlMedico.Interfaces.pdb
 F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.AccesoDatos\bin\Debug\netcoreapp3.1\ControlMedico.Modelos.pdb
 F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.AccesoDatos\obj\Debug\netcoreapp3.1\ControlMedico.AccesoDatos.csprojAssemblyReference.cache
 F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.AccesoDatos\obj\Debug\netcoreapp3.1\ControlMedico.AccesoDatos.AssemblyInfoInputs.cache
@@ -20,5 +22,3 @@ F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.Acce
 F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.AccesoDatos\obj\Debug\netcoreapp3.1\ControlMedico.AccesoDatos.csproj.CopyComplete
 F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.AccesoDatos\obj\Debug\netcoreapp3.1\ControlMedico.AccesoDatos.dll
 F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.AccesoDatos\obj\Debug\netcoreapp3.1\ControlMedico.AccesoDatos.pdb
-F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.AccesoDatos\bin\Debug\netcoreapp3.1\ControlMedico.Interfaces.dll
-F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\ControlMedico.AccesoDatos\bin\Debug\netcoreapp3.1\ControlMedico.Interfaces.pdb

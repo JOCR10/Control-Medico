@@ -1,0 +1,7 @@
+F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\.vs\ControlMedico\v16\lut\0\b\ControlMedico.Interfaces\Debug\netcoreapp3.1\ControlMedico.Interfaces.deps.json
+F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\.vs\ControlMedico\v16\lut\0\b\ControlMedico.Interfaces\Debug\netcoreapp3.1\ControlMedico.Interfaces.dll
+F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\.vs\ControlMedico\v16\lut\0\i\ControlMedico.Interfaces\Debug\netcoreapp3.1\ControlMedico.Interfaces.csprojAssemblyReference.cache
+F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\.vs\ControlMedico\v16\lut\0\i\ControlMedico.Interfaces\Debug\netcoreapp3.1\ControlMedico.Interfaces.AssemblyInfoInputs.cache
+F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\.vs\ControlMedico\v16\lut\0\i\ControlMedico.Interfaces\Debug\netcoreapp3.1\ControlMedico.Interfaces.AssemblyInfo.cs
+F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\.vs\ControlMedico\v16\lut\0\i\ControlMedico.Interfaces\Debug\netcoreapp3.1\ControlMedico.Interfaces.csproj.CopyComplete
+F:\Pruebas Técnicas\GAP\ControlMedico\ControlMedico.back-end\.vs\ControlMedico\v16\lut\0\i\ControlMedico.Interfaces\Debug\netcoreapp3.1\ControlMedico.Interfaces.dll
