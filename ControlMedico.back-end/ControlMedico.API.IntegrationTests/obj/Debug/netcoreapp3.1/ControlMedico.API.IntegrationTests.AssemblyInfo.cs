@@ -11,6 +11,13 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("ControlMedico.AccesoDatos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "F:\\Pruebas Técnicas\\GAP\\ControlMedico\\ControlMedico.back-end\\ControlMedico.Acceso" +
+    "Datos", "ControlMedico.AccesoDatos.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("ControlMedico.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "F:\\Pruebas Técnicas\\GAP\\ControlMedico\\ControlMedico.back-end\\ControlMedico.API", "ControlMedico.API.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("ControlMedico.Interfaces, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "F:\\Pruebas Técnicas\\GAP\\ControlMedico\\ControlMedico.back-end\\ControlMedico.Reposi" +
+    "torios", "ControlMedico.Interfaces.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("ControlMedico.Modelos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "F:\\Pruebas Técnicas\\GAP\\ControlMedico\\ControlMedico.back-end\\ControlMedico.Modelo" +
+    "s", "ControlMedico.Modelos.csproj", "0")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("ControlMedico.API.IntegrationTests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]

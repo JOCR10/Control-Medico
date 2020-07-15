@@ -1,24 +1,59 @@
-import { Component, OnInit } from '@angular/core';
-import { UserService } from '../_services/user.service';
+import { Component, OnInit, OnDestroy } from '@angular/core';
+import { CitaService } from '../_services/cita.service';
+import { Subscription } from 'rxjs/internal/Subscription';
+import { Cita } from '../_models/cita';
+
 
 @Component({
   selector: 'app-citas',
   templateUrl: './citas.component.html',
   styleUrls: ['./citas.component.css']
 })
-export class CitasComponent implements OnInit {
+export class CitasComponent implements OnInit, OnDestroy {
   content = '';
+  subscription: Subscription;
+  modeloCita: Cita = new Cita();
+  citas: Cita[];
 
-  constructor(private userService: UserService) { }
+  constructor(private citaService: CitaService) { }
 
   ngOnInit() {
-    this.userService.getCitas().subscribe(
-      data => {
-        this.content = data;
-      },
-      err => {
-        this.content = JSON.parse(err.error).message;
-      }
-    );
+    this.getAllCitas();
+  }
+
+  ngOnDestroy() {
+    this.subscription && this.subscription.unsubscribe();
+  }
+
+  public getCitasFiltrado() {
+    this.subscription = this.citaService.getCitasPorCriterio(this.modeloCita)
+      .subscribe
+      (
+        (result) => {
+          this.citas = (result as Cita[]);
+        }
+      );
+  }
+  public getAllCitas() {
+    this.subscription = this.citaService.getCitas()
+      .subscribe
+      (
+        (result) => {
+          this.citas = (result as Cita[]);
+        }
+      );
+  }
+
+  onClickSubmit(buttonType) {
+    if (buttonType === "Buscar") {
+      this.getCitasFiltrado()
+    }
+    if (buttonType === "RegistrarCita") {
+      alert("Registrando");
+    }
+  }
+
+  public showAlert() {
+    alert("You should fill the corresponding data based on the selected filter.");
   }
 }

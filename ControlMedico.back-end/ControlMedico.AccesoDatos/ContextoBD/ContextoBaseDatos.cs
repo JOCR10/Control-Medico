@@ -18,58 +18,22 @@ namespace ControlMedico.AccesoDatos.ContextoBD
         public virtual DbSet<Cita> Cita { get; set; }
         public virtual DbSet<Paciente> Paciente { get; set; }
         public virtual DbSet<Usuario> Usuario { get; set; }
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            base.OnConfiguring(optionsBuilder);
+        }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Cita>(entity =>
             {
-                entity.HasKey(e => e.IdCita)
-                    .HasName("PK_CMCita");
-
-                entity.Property(e => e.TipoCita).HasConversion(x => (byte)x, x => (EnumTipoCita)x).HasComment(@"1-Medicina General
-2-Odontología
-3-Pediatría
-4-Neurología");
-
-                //entity.HasOne(d => d.IdPacienteNavigation)
-                //   .WithMany(p => p.Cita)
-                //   .HasForeignKey(d => d.IdPaciente)
-                //   .OnDelete(DeleteBehavior.ClientSetNull)
-                //   .HasConstraintName("FK_CMCita_CMPaciente");
+                entity.Property(e => e.TipoCita).HasConversion(x => (byte)x, x => (EnumTipoCita)x);
             });
 
             modelBuilder.Entity<Paciente>(entity =>
             {
-                entity.HasKey(e => e.IdPaciente)
-                    .HasName("PK_CMPaciente");
-
-                entity.Property(e => e.Genero).HasConversion(x => (byte)x, x => (EnumGenero)x).HasComment(@"1-Femenino
- 2-Masculino");
-
-                entity.Property(e => e.Identificacion).IsUnicode(false);
-
-                entity.Property(e => e.NombreCompleto).IsUnicode(false);
-
-                entity.Property(e => e.Residencia).IsUnicode(false);
-
-                entity.Property(e => e.Telefono).IsUnicode(false);
-
-                entity.Property(e => e.TipoIdentificacion).HasConversion(x => (byte)x, x => (EnumTipoIdentificacion)x).HasComment(@"1-Física.
-2-Extranjero
-3-Diplomático");
-            });
-
-            modelBuilder.Entity<Usuario>(entity =>
-            {
-                entity.HasIndex(e => e.CodUsuario)
-                    .HasName("UK_Usuario_CodUsuario")
-                    .IsUnique();
-
-                entity.Property(e => e.CodUsuario).IsUnicode(false);
-
-                entity.Property(e => e.Contrasena).IsUnicode(false);
-
-                entity.Property(e => e.Rol).IsUnicode(false);
+                entity.Property(e => e.Genero).HasConversion(x => (byte)x, x => (EnumGenero)x);
+                entity.Property(e => e.TipoIdentificacion).HasConversion(x => (byte)x, x => (EnumTipoIdentificacion)x);
             });
 
             OnModelCreatingPartial(modelBuilder);

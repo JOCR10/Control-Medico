@@ -64,7 +64,6 @@ namespace ControlMedico.AccesoDatos.Repositorios
             {
                 return false;
             }
-            cita.InfoPaciente = null;
             base.Insertar(cita);
             return true;
         }

@@ -17,7 +17,7 @@ namespace ControlMedico.API.Controllers
         {
         }
 
-        [HttpGet("[action]/{identificacion}")]
+        [HttpPost("[action]")]
         public IEnumerable<Paciente> ObtenerPorCriterio([FromBody]Paciente paciente)
         {
             return base.Repositorio.ObtenerPacientePorCriterio(paciente);
