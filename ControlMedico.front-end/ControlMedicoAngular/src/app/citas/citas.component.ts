@@ -12,7 +12,7 @@ import { Cita } from '../_models/cita';
 export class CitasComponent implements OnInit, OnDestroy {
   content = '';
   subscription: Subscription;
-  modeloCita: Cita = new Cita();
+  modeloCita: Cita;
   citas: Cita[] = [];
   citaCancelada: boolean;
   citaRegistrada: boolean;

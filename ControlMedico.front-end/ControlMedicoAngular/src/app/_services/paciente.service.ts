@@ -1,5 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+import { Observable } from 'rxjs';
+import { Paciente } from '../_models/paciente';
 
 const API_URL = 'https://localhost:44322/api/pacientes/';
 
@@ -10,11 +12,11 @@ export class PacienteService {
 
   constructor(private http: HttpClient) { }
 
-  public getPacientes() {
-    return this.http.get(API_URL + 'ObtenerPacientes');
+  getPacientes(): Observable<Paciente[]> {
+    return this.http.get<Paciente[]>(API_URL + 'ObtenerPacientes');
   }
 
-  public getPacientesPorCriterio(body) {
+  getPacientesPorCriterio(body) {
     return this.http.post(API_URL + 'ObtenerPorCriterio', body);
   }
 }

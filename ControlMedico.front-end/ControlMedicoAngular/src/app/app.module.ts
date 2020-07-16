@@ -10,7 +10,7 @@ import { CitasComponent } from './citas/citas.component';
 import { PacientesComponent } from './pacientes/pacientes.component';
 import { ProfileComponent } from './profile/profile.component';
 import { authInterceptorProviders } from '../_helpers/auth.interceptor';
-import {APP_BASE_HREF} from '@angular/common';
+import {APP_BASE_HREF, CommonModule} from '@angular/common';
 
 
 @NgModule({
@@ -25,7 +25,8 @@ import {APP_BASE_HREF} from '@angular/common';
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
+    CommonModule
   ],
   providers: [authInterceptorProviders,{provide: APP_BASE_HREF, useValue: '.'}],
   bootstrap: [AppComponent]

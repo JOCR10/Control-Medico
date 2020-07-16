@@ -3,6 +3,8 @@ import { Subscription } from 'rxjs';
 import { Paciente } from '../_models/paciente';
 import { PacienteService } from '../_services/paciente.service';
 
+
+
 @Component({
   selector: 'app-pacientes',
   templateUrl: './pacientes.component.html',
@@ -11,8 +13,10 @@ import { PacienteService } from '../_services/paciente.service';
 export class PacientesComponent implements OnInit, OnDestroy {
   content = '';
   subscription: Subscription;
-  modeloPaciente: Paciente = new Paciente();
-  pacientes: Paciente[];
+  model = new Paciente();
+  pacientes = [];
+  
+  
 
   constructor(private pacienteService: PacienteService) { }
 
@@ -25,11 +29,11 @@ export class PacientesComponent implements OnInit, OnDestroy {
   }
 
   public getPacientesFiltrado() {
-    this.subscription = this.pacienteService.getPacientesPorCriterio(this.modeloPaciente)
+    this.subscription = this.pacienteService.getPacientesPorCriterio(this.model)
       .subscribe
       (
-        (result) => {
-          this.pacientes = (result as Paciente[]);
+        (result: any[]) => {
+          this.pacientes = result;
         }
       );
   }
@@ -37,8 +41,8 @@ export class PacientesComponent implements OnInit, OnDestroy {
     this.subscription = this.pacienteService.getPacientes()
       .subscribe
       (
-        (result) => {
-          this.pacientes = (result as Paciente[]);
+        (result: any[]) => {
+          this.pacientes = result;
         }
       );
   }

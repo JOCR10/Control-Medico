@@ -1,12 +1,12 @@
 export class Paciente {
-    IdPaciente: number;
-    Identificacion: string;
-    TipoIdentificacion: EnumTipoIdentificacion;
-    DesTipoIdentificacion: string;
-    NombreCompleto: string;
-    FechaNacimiento: Date;
-    Genero: EnumGenero;
-    DesGenero: string;
-    Residencia: string;
-    Telefono: string;
+        public IdPaciente: number;
+        public Identificacion: string;
+        public TipoIdentificacion: EnumTipoIdentificacion;
+        public DesTipoIdentificacion: string;
+        public NombreCompleto: string;
+        public FechaNacimiento: Date;
+        public Genero: EnumGenero;
+        public DesGenero: string;
+        public Residencia: string;
+        public Telefono: string;
 }
