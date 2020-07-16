@@ -1,0 +1,59 @@
+<form name="formCitas" class="p-3" (ngSubmit)="formCitas.form.valid && onClickSubmit()" #formCitas="ngForm" novalidate>
+    <div class="form-group form-row align-items-center p-3">
+        <div class="card">
+            <div class="col-auto col-sm-12 card-header h5">Filtros:</div>
+        </div>
+        <div class="form-check">
+            <div class="form-check mb-2">
+                <label class="form-check-label col-sm-12">
+                    Identificación
+                </label>
+            </div>
+        </div>
+        <div class="form-check">
+            <input id="Identificacion" name="Identificacion" [(ngModel)]="modeloCita.InfoCliente.Identificacion" #Identificacion="ngModel" type="text"
+                class="form-control mb-2" placeholder="Identificación">
+        </div>
+        <div class="form-check">
+            <div class="form-check mb-2">
+                <label class="form-check-label col-sm-12">
+                    Fecha
+                </label>
+            </div>
+        </div>
+        <div class="form-check">
+            <input type="date" id="input" class="form-control" mdbInput>
+        </div>
+        <div class="p-3 form-row">
+            <button type="submit" (click)="onClickSubmit()" class="btn btn-primary btn-lg mb-2">
+                <i class="fa fa-search"></i>Buscar
+            </button>
+            <!-- <button type="button" (click)="onClickRegistrarCita()" class="btn btn-primary btn-lg mb-2">
+                <i class="fa fa-search"></i>Registrar Cita
+            </button> -->
+            <!-- <button type="button" (click)="onClickCancelarCita()" class="btn btn-primary btn-lg mb-2">
+                <i class="fa fa-search"></i>Eliminar Cita
+            </button> -->
+        </div>
+        <div class="form-group p-3" *ngIf="citas">
+            <table class="table table-hover">
+                <thead class="thead-light">
+                    <tr>
+                        <th scope="col">Id Cita</th>
+                        <th scope="col">Fecha Cita</th>
+                        <th scope="col">Tipo Cita</th>
+                        <th scope="col">Cancelada</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let item of citas">
+                        <td>{{item.idcita}}</td>
+                        <td>{{item.fechacita}}</td>
+                        <td>{{item.destipocita}}</td>
+                        <td>{{item.cancelada ? 'Si':'No'}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</form>

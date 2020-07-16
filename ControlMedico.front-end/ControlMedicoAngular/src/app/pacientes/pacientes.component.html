@@ -1,0 +1,60 @@
+<form name="pacientesForms" class="p-3" (ngSubmit)="pacientesForms.form.valid && onClickSubmit()" #pacientesForms="ngForm" novalidate>
+    <div class="form-group form-row align-items-center p-3">
+        <div class="card">
+            <div class="col-auto col-sm-12 card-header h5">Filtros:</div>
+        </div>
+        <div class="form-check">
+            <div class="form-check mb-2">
+                <label class="form-check-label col-sm-12">
+                    Identificación
+                </label>
+            </div>
+        </div>
+        <div class="form-check">
+            <input id="Identificacion" name="Identificacion" [(ngModel)]="model.Identificacion"
+                #Identificacion="ngModel" type="text" class="form-control mb-2" placeholder="Identificación">
+        </div>
+        <div class="form-check">
+            <div class="form-check mb-2">
+                <label class="form-check-label col-sm-12">
+                    Nombre
+                </label>
+            </div>
+        </div>
+        <div class="form-check">
+            <input id="NombreCompleto" name="NombreCompleto" [(ngModel)]="model.NombreCompleto"
+                #NombreCompleto="ngModel" type="text" class="form-control mb-2" placeholder="Nombre">
+        </div>
+        <div class="p-3 form-row">
+            <button type="submit" (click)="onClickSubmit()" class="btn btn-primary btn-lg mb-2">
+                <i class="fa fa-search"></i>Buscar
+            </button>
+        </div>
+        <div class="" *ngIf="pacientes">
+            <table class="table table-hover">
+                <thead class="thead-light">
+                     <tr>
+                        <th scope="col">Identificación</th>
+                        <th scope="col">Tipo de identificacion</th>
+                        <th scope="col">Nombre completo</th>
+                        <th scope="col">Fecha de nacimiento</th>
+                        <th scope="col">Género</th>
+                        <th scope="col">Residencia</th>
+                        <th scope="col">Teléfono</th>
+                    </tr> 
+                </thead>
+                <tbody>
+                    <tr *ngFor="let item of pacientes">
+                        <td>{{item.Identificacion}}</td>
+                        <td>{{item.DesTipoIdentificacion}}</td>
+                        <td>{{item.NombreCompleto}}</td>
+                        <td>{{item.FechaNacimiento}}</td>
+                        <td>{{item.DesGenero}}</td>
+                        <td>{{item.Residencia}}</td>
+                        <td>{{item.Telefono}}</td>
+                    </tr> 
+                </tbody>
+            </table>
+        </div>
+    </div>
+</form>
